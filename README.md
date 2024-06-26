@@ -1,7 +1,7 @@
 ## Set your username and email in git config
 ```bash
-   git config –global user.name ayushman-s-rathore
-   git config –global user.email ayushman.rathore@practo.com
+   git config –global user.name Rishav Kumar
+   git config –global user.email rishav.kumar@practo.com
    ```
 ## Create a new branch named "feature-branch" and switch to it.
 ```bash
@@ -29,7 +29,7 @@ git checkout -b feature1
 ## Make some changes in to feature1 branch
  made a hello file an added to feature1 branch
  ```bash
-  git add hello
+  git add text
   git commit -m ""
   git push origin feature1
   ```
@@ -39,9 +39,9 @@ git checkout -b feature1
  git merge feature1
  ```
 ## Make changes in “conflict-branch”, in the same file and line that you had made changes in feature1
-made a hello file an added to conflict-branch
+made a text file an added to conflict-branch
  ```bash
-  git add hello
+  git add text
   git commit -m ""
   git push origin feature1
   ```
@@ -51,11 +51,11 @@ made a hello file an added to conflict-branch
 Make some necessary changes in file 
 ## Add a remote named "origin" pointing to a GitHub repository.
 ```bash
-git remote add origin https://github.com/ayushman-s-rathore/practo-assignment.git
+git remote add origin https://github.com/Rishav-k/git-practice.git
 ```
 ## Fork a repository on GitHub and clone it to your local machine.
 ```bash 
-git clone https://github.com/ayushman-s-rathore/Javascript-Snake-Game.git
+git clone https://github.com/Rishav-k/git-practice.git
 ```
 ## Create a new branch on your fork, make changes, and open a pull request to the original repository.
 
@@ -173,6 +173,4 @@ git push --force
 ```bash
 git push origin -d <branch-name>
 ```
-## Create a git repository for all your assignments and upload them in it. Ask your peers to code review it, and you need to code review your peers assignments
-## Create a pull request on any open source library on github, attach the pull request link to the readme file of this project’s repository
-https://github.com/chromium/permission.site/pull/120
+

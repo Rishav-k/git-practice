@@ -51,11 +51,11 @@ made a text file an added to conflict-branch
 Make some necessary changes in file 
 ## Add a remote named "origin" pointing to a GitHub repository.
 ```bash
-git remote add origin https://github.com/Rishav-k/git-practice.git
+git remote add origin https://github.com/Rishav-k/github-practice.git
 ```
 ## Fork a repository on GitHub and clone it to your local machine.
 ```bash 
-git clone https://github.com/Rishav-k/git-practice.git
+git clone https://github.com/Rishav-k/github-practice.git
 ```
 ## Create a new branch on your fork, make changes, and open a pull request to the original repository.
 
@@ -69,7 +69,7 @@ git config --global alias.gitlol "log --oneline"
 ```bash
 git stash
 git checkout branch1
-# when come to this smae branch again
+# when come to this same branch again
 git checkout branch2
 git stash pop
 ```
